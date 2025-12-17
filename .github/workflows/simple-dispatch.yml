@@ -2,11 +2,6 @@ name: Simple Dispatch Test
 
 on:
   workflow_dispatch:
-    inputs:
-      required_param:
-        description: 'A required input parameter for testing'
-        required: true
-        type: string
 
 jobs:
   test:
@@ -17,6 +12,3 @@ jobs:
 
       - name: Run simple test
         run: echo 'Workflow dispatch test successful!'
-
-      - name: Display required parameter
-        run: echo "Required parameter value: ${{ github.event.inputs.required_param }}"
