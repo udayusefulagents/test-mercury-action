@@ -1,5 +1,7 @@
-# Test File Created
+# Test File Updated
 
-This is a new test file created by the GITHUB_CREATE_OR_UPDATE_FILE_CONTENTS action.
+This file was updated by the GITHUB_CREATE_OR_UPDATE_FILE_CONTENTS action.
 
-Timestamp: 2025-12-26
+The action automatically fetched the SHA of the existing file.
+
+Timestamp: 2025-12-26 - Updated
